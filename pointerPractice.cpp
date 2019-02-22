@@ -18,7 +18,7 @@ int main()
     int *pNum2 = 0;
     pNum2 = num;
 
-    for (int i = 0; i < len; i++)
+    for (int i = 0; i < len + 10; i++)
     {
         cout <<  i << "\t" << *(pNum2 + i) << endl;
     }
